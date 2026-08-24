@@ -1,0 +1,21 @@
+	INP
+	OUT
+	STA org
+
+- sequencia geométrica
+Seq	LDA org
+	ADD org
+	STA org
+	OUT
+
+- contador regressivo
+	LDA cont
+	SUB sub
+	STA cont
+	BRP seq
+	HLT
+	
+
+org	DAT
+cont 	DAT 8
+Sub 	DAT 1
