@@ -1,0 +1,17 @@
+	    INP
+	    SUB TEST
+	    BRZ FIM
+	    LDA CONT
+FLUXO	INP
+	    SUB TEST
+	    BRZ FIM
+	    LDA NUM1
+  	  ADD CONT
+	    STA CONT
+	    BRA FLUXO
+      FIM	LDA CONT
+	    OUT
+    	HLT
+TEST	DAT -1
+NUM1	DAT 1
+CONT	DAT 1
