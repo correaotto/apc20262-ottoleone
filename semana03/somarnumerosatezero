@@ -1,0 +1,10 @@
+TESTE0  INP
+        BRZ FAIL
+        BRA FLUXO
+FAIL    OUT
+        HLT
+FLUXO   ADD SOMA
+        STA SOMA
+        OUT
+        BRA TESTE0
+SOMA DAT 
