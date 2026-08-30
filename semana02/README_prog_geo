@@ -1,0 +1,17 @@
+23-08-2026
+
+Esse é um programa que cria uma progressão geométrica de razão 2, encerrando com uma sequência de 10 elementos. Para criar, o raciocínio foi utilizar o contador regressivo, que foi um programa estudado na disciplina durante a aula. 
+
+Para isso, foi necessário ter três tipos de dados armazenados. 
+
+- O primeiro dado [org] - original, que é o próprio número inserido pelo usuário, e que vai ser sempre multiplicado por ele mesmo. 
+
+- O segundo é o contador [cont]. Como o programa só encerra quando o valor é negativo, foi necessário iniciar o contador no número 8, assim o programa consegue encerrar mostrando para o usuário uma sequência de 10 elementos. 
+
+- O terceiro dado é o número que é subtraído a cada vez que o contador é disparado, isto é, o valor 1. 
+
+Assim, o programa se inicia com o input de um número qualquer pelo usuário. Esse número é instantaneamente exibido para que se marque o início da sequência. Após isso, o número é armazenado e logo após ˜carregado˜. Esse carregamento é necessário para dar início ao loop que será criado posteriormente. 
+
+Assim o número é adicionado dele mesmo, e armazenado. Assim, é exibido em tela. Após esse processo se inicia o contador regressivo. Caso o valor seja positivo, ele vai carregar o loop a partir do LDA, que será o último número adicionado. 
+
+Eu tive diversas dificuldades em construir esse processo. Primeiro, faltava usar a função LDA. Tive dificuldades de entender que o acumulador sempre vai estar com o último número. Quando se iniciava o contador, esquecia que era necessário trazer de volta o número que está progredindo, para ser adicionado de novo. Também tive dificuldades de onde colocar o OUT. 
