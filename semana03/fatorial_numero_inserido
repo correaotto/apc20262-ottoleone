@@ -1,0 +1,43 @@
+        INP
+        BRZ FIM
+        STA TOTAL
+        STA ADT
+        STA CONT1
+        SUB ONE
+        STA CONT2
+        BRZ FIM
+ TST1   LDA CONT2
+        SUB ONE
+        BRZ FIM
+        LDA CONT2
+        STA CONT1
+ FLX1   LDA TOTAL
+        ADD ADT
+        STA TOTAL
+        LDA CONT1
+        SUB ONE
+        STA CONT1
+        BRZ FLX2
+        BRA FLX1
+ FLX2   LDA TOTAL
+        STA ADT
+        LDA CONT2
+        SUB ONE
+        STA CONT2
+        BRA TST1
+ FIM    LDA TOTAL
+        OUT
+        HLT
+ FIM0   LDA ONE
+        OUT
+        HLT
+    
+CONT1   DAT
+CONT2   DAT
+ADT     DAT
+TOTAL   DAT
+MENOSUM DAT -1
+ONE     DAT 1        
+
+
+        

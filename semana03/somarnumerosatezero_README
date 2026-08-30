@@ -1,0 +1,14 @@
+O presente algoritmo soma os algarismos inseridos pelo usuário, com condição para interrupção a inserção do algarismo "0". 
+
+É esperado que o algoritmo devolva uma soma dos números inseridos pelo usuário até o momento em que este optar por digitar "0". 
+
+São exemplos de resultado do algoritmo:
+| Sequência de Entrada | Resultado Esperado | Descrição |
+| :--- | :---: | ---: |
+| 3, 1, 5, 0 | 9 | Caso normal |
+| 0 | 0 | Lista vazia |
+
+O fluxograma visual do algoritmo é:
+![Figura 1 - Fluxograma](semana03/somarnumerosatezero.png)
+
+Esse algoritmo foi construído em sala de aula (26-08) com o apoio de Larisson Mendes 261019775 e Younes Boumediene 212009040. 
